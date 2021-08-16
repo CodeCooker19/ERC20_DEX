@@ -64,10 +64,10 @@ const WalletModal: React.FC<ModalProps> = ({ isOpen, onDismiss }) => {
               <FancyValue
                 icon={{
                   alt: 'Owl',
-                  src: 'https://index-dao.s3.amazonaws.com/owl.png',
+                  src: 'https://lgt.s3.us-east-2.amazonaws.com/LGT.png',
                 }}
                 link={`https://etherscan.io/address/${tokenAddresses.indexTokenAddress}`}
-                label='INDEX balance'
+                label='LGT balance'
                 value={getDisplayBalance(indexBalance)}
               />
             </Box>

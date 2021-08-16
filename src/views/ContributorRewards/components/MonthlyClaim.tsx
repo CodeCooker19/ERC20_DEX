@@ -27,10 +27,10 @@ const MonthlyClaim: React.FC = () => {
             {status === 'connected' ? claimableQuantity?.toString() || 0 : '--'}
             <StyledTokenIcon
               alt='owl icon'
-              src='https://index-dao.s3.amazonaws.com/owl.png'
+              src='https://lgt.s3.us-east-2.amazonaws.com/LGT.png'
             />
           </StyledSectionTitle>
-          <StyledSectionLabel>Unclaimed INDEX</StyledSectionLabel>
+          <StyledSectionLabel>Unclaimed LGT</StyledSectionLabel>
         </CardContent>
         <CardActions>{ClaimButton}</CardActions>
       </Card>

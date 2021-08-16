@@ -41,10 +41,10 @@ const Treasury: React.FC = () => {
           <CardContent>
             <FancyValue
               icon={{
-                src: 'https://index-dao.s3.amazonaws.com/owl.png',
+                src: 'https://lgt.s3.us-east-2.amazonaws.com/LGT.png',
                 alt: 'Owl',
               }}
-              label='$INDEX Price'
+              label='$LGT Price'
               value={indexPriceValue}
             />
           </CardContent>

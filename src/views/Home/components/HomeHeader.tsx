@@ -10,14 +10,14 @@ const Home: React.FC = () => {
   return (
     <div>
       <HomeTitle>
-        The Index Coop currently has{' '}
+        The LGT and LST currently has{' '}
         <AuvText>
           {latestMarketCap?.toLocaleString(undefined, {
             style: 'currency',
             currency: 'USD',
           })}{' '}
         </AuvText>
-        diversified in crypto index products.
+        diversified in crypto products.
       </HomeTitle>
 
       <HomeHeaderCTA to='/dpi'>View the DeFi Pulse Index</HomeHeaderCTA>

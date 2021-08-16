@@ -52,28 +52,26 @@ const Rewards: React.FC = () => {
       <Card>
         <CardIcon>
           <StyledIcon
-            alt="Present icon"
-            src="https://index-dao.s3.amazonaws.com/present.png"
+            alt='Present icon'
+            src='https://index-dao.s3.amazonaws.com/present.png'
           />
         </CardIcon>
         <CardContent>
           <Box alignItems='center' column>
             <Value value={claimableQuantity?.toString() || '--'} />
-            <Label text='Claim Your INDEX Rewards' />
+            <Label text='Claim Your LGT Rewards' />
           </Box>
         </CardContent>
         <CardActions>
           <Button
             disabled={!isWalletConnected || !isClaimable}
             onClick={isWalletConnected ? handleClaimClick : () => {}}
-            text='Claim INDEX'
+            text='Claim LGT'
             variant='secondary'
           />
           <Button
             disabled={!isWalletConnected}
-            onClick={
-              isWalletConnected ? handleExternalClaimClick : () => {}
-            }
+            onClick={isWalletConnected ? handleExternalClaimClick : () => {}}
             text='Claim Externally'
             variant='secondary'
           />

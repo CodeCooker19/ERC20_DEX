@@ -100,7 +100,7 @@ const BuySellButton: React.FC = () => {
     buttonText = 'Approve CGI'
     buttonAction = cgiApproval.onApprove
   } else if (indexApprovalRequired) {
-    buttonText = 'Approve INDEX'
+    buttonText = 'Approve LGT'
     buttonAction = indexApproval.onApprove
   } else if (daiApprovalRequired) {
     buttonText = 'Approve DAI'

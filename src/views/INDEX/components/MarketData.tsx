@@ -20,8 +20,8 @@ const MarketData: React.FC = () => {
   const priceAtEpochStart = prices?.[0]?.[1] || 1
   const epochPriceChange = (chartPrice || 0) - priceAtEpochStart
   const IndexToken = {
-    src: 'https://index-dao.s3.amazonaws.com/owl.png',
-    alt: 'Index Coop Logo',
+    src: 'https://lgt.s3.us-east-2.amazonaws.com/LGT.png',
+    alt: 'LGT Logo',
   }
 
   const updateChartPrice = (chartData: any) => {
@@ -62,9 +62,9 @@ const MarketData: React.FC = () => {
     <div>
       <StyledDpiIconLabel>
         <StyledIcon src={IndexToken.src} alt={IndexToken.alt} />
-        <span>INDEX</span>
+        <span>LGT</span>
       </StyledDpiIconLabel>
-      <StyledDpiTitle>Index Coop Token</StyledDpiTitle>
+      <StyledDpiTitle>Liquidity Gold Token</StyledDpiTitle>
       <p>{dateString}</p>
       <StyledDpiPriceWrapper>
         <StyledDpiPrice>

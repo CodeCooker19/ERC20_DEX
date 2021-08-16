@@ -14,10 +14,10 @@ const Integrations: React.FC = () => (
         <StyledCardContainer>
           <Surface fill>
             <StyledCardContent>
-              <StyledCardIcon src='https://index-dao.s3.amazonaws.com/owl.png' />
-              <StyledCardTitle>Index Coop</StyledCardTitle>
+              <StyledCardIcon src='https://lgt.s3.us-east-2.amazonaws.com/LGT.png' />
+              <StyledCardTitle>LGT</StyledCardTitle>
               <StyledCardDescription>
-                Earn INDEX tokens by staking Uniswap ETH/DPI LP tokens.
+                Earn LGT tokens by staking Uniswap ETH/DPI LP tokens.
               </StyledCardDescription>
 
               <StyledOutboundLink href='/farm'>
@@ -224,22 +224,22 @@ const Integrations: React.FC = () => (
               <StyledCardIcon src='https://pbs.twimg.com/profile_images/1242184851152928769/wG2eTAfD_400x400.jpg' />
               <StyledCardTitle>Uniswap</StyledCardTitle>
               <StyledCardDescription>
-                Trade DeFi Pulse Index and the Index Coop governance token on
-                crypto's biggest DEX.
+                Trade DeFi Pulse LGT and the LGT governance token on crypto's
+                biggest DEX.
               </StyledCardDescription>
 
               <StyledOutboundLink
                 href='https://info.uniswap.org/token/0x1494ca1f11d487c2bbe4543e90080aeba4ba3c2b'
                 target='_blank'
               >
-                Trade DeFi Pulse Index
+                Trade DeFi Pulse LGT
               </StyledOutboundLink>
 
               <StyledOutboundLink
                 href='https://uniswap.info/token/0x0954906da0Bf32d5479e25f46056d22f08464cab'
                 target='_blank'
               >
-                Trade INDEX
+                Trade LGT
               </StyledOutboundLink>
             </StyledCardContent>
           </Surface>
@@ -253,8 +253,8 @@ const Integrations: React.FC = () => (
               <StyledCardIcon src='https://index-dao.s3.amazonaws.com/1inch.png' />
               <StyledCardTitle>1inch</StyledCardTitle>
               <StyledCardDescription>
-                Trade the DeFi Pulse Index and Index Coop governance token on
-                the 1inch DEX aggregator.
+                Trade the DeFi Pulse Index and LGT governance token on the 1inch
+                DEX aggregator.
               </StyledCardDescription>
 
               <StyledOutboundLink
@@ -267,7 +267,7 @@ const Integrations: React.FC = () => (
                 href='https://1inch.exchange/#/ETH/INDEX'
                 target='_blank'
               >
-                Trade INDEX
+                Trade LGT
               </StyledOutboundLink>
             </StyledCardContent>
           </Surface>

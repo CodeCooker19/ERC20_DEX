@@ -27,7 +27,7 @@ const Home: React.FC = () => {
           </CardIcon>
           <CardContent>
             <Box alignItems='center' column>
-              <StyledHeader>DeFi Pulse Index</StyledHeader>
+              <StyledHeader>DeFi Pulse LGT</StyledHeader>
               <Label text="Index's First Product" />
             </Box>
             <Spacer />

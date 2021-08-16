@@ -41,7 +41,7 @@ const DpiProductPage = (props: { title: string }) => {
         </ProductPageHeader>
         <ProductPageContent>
           <WalletBalance
-            symbol='INDEX'
+            symbol='LGT'
             latestPrice={latestPrice}
             currentBalance={indexBalance}
           />
@@ -52,23 +52,23 @@ const DpiProductPage = (props: { title: string }) => {
             latestMarketCap={latestMarketCap}
           />
           <Description>
-            <strong>INDEX</strong> is the governance token which presides over
-            the Index Cooperative.
-            <h2>What is the Index Coop?</h2>
-            The Index Coop is a collective aimed at creating and maintaining the
-            best crypto indices on the market. The coop creates crypto ETPs
-            (exchange traded products) that help users get broad exposure to
-            different sectors or themes across crypto. As the first flagship
-            product, Index has created the DeFi Pulse Index that provides broad
-            DeFi exposure for its users by holding one token.
+            <strong>LGT</strong> is the governance token which presides over the
+            LGT.
+            <h2>What is the LGT?</h2>
+            The LGT is a collective aimed at creating and maintaining the best
+            crypto indices on the market. The coop creates crypto ETPs (exchange
+            traded products) that help users get broad exposure to different
+            sectors or themes across crypto. As the first flagship product, LGT
+            has created the DeFi Pulse LGT that provides broad DeFi exposure for
+            its users by holding one token.
             <h2>Token Characteristics</h2>
-            INDEX is an ERC-20 token deployed on the Ethereum blockchain. It has
-            a capped maximum supply of 10,000,000 tokens. INDEX is used to vote
-            in changes to the Index Coop including but not limited to:
+            LGT is an ERC-20 token deployed on the Ethereum blockchain. It has a
+            capped maximum supply of 10,000,000 tokens. LGT is used to vote in
+            changes to the LGT including but not limited to:
             <ul>
-              <li>Smart contract upgrades to the Index Coop</li>
-              <li>How to allocate the Index Coop treasury</li>
-              <li>Add new Index Coop products</li>
+              <li>Smart contract upgrades to the LGT</li>
+              <li>How to allocate the LGT treasury</li>
+              <li>Add new LGT products</li>
             </ul>
             <h2>Token Release Schedule</h2>
             <StyledDpiIndexCalculationImage src={IndexReleaseScheduleImage} />
@@ -79,7 +79,7 @@ const DpiProductPage = (props: { title: string }) => {
               </li>
               <li>
                 <b>7.5%</b> allocated to the Index Methodologist program over a
-                period of 18 months, beginning 60 days after Index Coop launch
+                period of 18 months, beginning 60 days after LGT launch
               </li>
               <li>
                 <b> 9%</b> allocated to a 60 day liquidity mining program for

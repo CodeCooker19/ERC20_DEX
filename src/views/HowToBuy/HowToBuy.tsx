@@ -310,7 +310,7 @@ const HowToBuy = (props: { title: string }) => {
                 Uniswap,
               </Link>
               we will show a purchase via indexcoop.com - the website managed by
-              the Index Coop, the&nbsp;
+              the LGT, the&nbsp;
               <Link
                 href={
                   'https://www.google.com/search?sxsrf=ALeKk01kP0CozxN-ffaZeIb5-V7FXFTCJA%3A1611627627153&ei=a3wPYLHiCIir5NoPrqOM4AM&q=what+is+a+decentralied+anonyouns+organization&oq=what+is+a+decentralied+anonyouns+orga&gs_lcp=CgZwc3ktYWIQAxgAMgUIIRCgAToECAAQRzoFCAAQyQM6AggAOgQIIxAnOggIABDJAxCRAjoFCAAQkQI6CAgAELEDEIMBOgUIABCxAzoECAAQCjoHCAAQFBCHAjoHCAAQyQMQDToECAAQDToGCAAQFhAeOggIIRAWEB0QHjoHCCEQChCgAToECCEQCjoHCCEQChCrAjoKCCEQFhAKEB0QHlD6jAhYo9wIYPbsCGgAcAJ4AIABeYgBiRKSAQQyNi4zmAEAoAEBqgEHZ3dzLXdpesgBCMABAQ&sclient=psy-ab'
@@ -371,8 +371,8 @@ const HowToBuy = (props: { title: string }) => {
                 </div>
                 <br />
                 <li>
-                  The Index Coop website will then prompt your wallet, which
-                  will present you with an option to confirm or reject the
+                  The LGT website will then prompt your wallet, which will
+                  present you with an option to confirm or reject the
                   transaction. Different wallets will present this option fairly
                   similarly, but this is your final chance to reject the
                   transaction before exchanging ETH for DPI.

@@ -16,38 +16,20 @@ import Value from 'components/Value'
 
 import useFarming from 'hooks/useFarming'
 import useWallet from 'hooks/useWallet'
-import useBalances from 'hooks/useBalances';
+import useBalances from 'hooks/useBalances'
 
 const Harvest: React.FC = () => {
-  const {
-    onHarvest,
-  } = useFarming()
+  const { onHarvest } = useFarming()
 
   const { status } = useWallet()
   const { unharvestedIndexBalance } = useBalances()
 
   const HarvestAction = useMemo(() => {
     if (status !== 'connected') {
-      return (
-        <Button
-          disabled
-          full
-          text="Claim"
-          variant="secondary"
-        />
-      )
+      return <Button disabled full text='Claim' variant='secondary' />
     }
-    return (
-      <Button
-        full
-        onClick={onHarvest}
-        text="Claim"
-      />
-    )
-  }, [
-    status,
-    onHarvest,
-  ])
+    return <Button full onClick={onHarvest} text='Claim' />
+  }, [status, onHarvest])
 
   const formattedEarnedBalance = useMemo(() => {
     if (unharvestedIndexBalance) {
@@ -61,22 +43,17 @@ const Harvest: React.FC = () => {
     <Card>
       <CardIcon>
         <StyledIcon
-          alt="Owl icon"
-          src="https://index-dao.s3.amazonaws.com/owl.png"
+          alt='Owl icon'
+          src='https://lgt.s3.us-east-2.amazonaws.com/LGT.png'
         />
       </CardIcon>
       <CardContent>
-        <Box
-          alignItems="center"
-          column
-        >
+        <Box alignItems='center' column>
           <Value value={formattedEarnedBalance} />
-          <Label text="Unclaimed INDEX" />
+          <Label text='Unclaimed LGT' />
         </Box>
       </CardContent>
-      <CardActions>
-        {HarvestAction}
-      </CardActions>
+      <CardActions>{HarvestAction}</CardActions>
     </Card>
   )
 }

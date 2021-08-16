@@ -4,7 +4,7 @@ import styled from 'styled-components'
 
 const Explanation: React.FC = () => (
   <div>
-    <StyledExplanationTitle>What is the Index Coop?</StyledExplanationTitle>
+    <StyledExplanationTitle>What is the LGT?</StyledExplanationTitle>
     <StyledExplanationContainer>
       <StyledCardContainer>
         <Surface fill>
@@ -12,8 +12,7 @@ const Explanation: React.FC = () => (
             <StyledCardIcon src='https://index-dao.s3.amazonaws.com/about_icon_1.svg' />
             <StyledCardTitle>Diversified Risk Products</StyledCardTitle>
             <StyledCardDescription>
-              Index Coop creates and maintains the world's best crypto index
-              products.
+              LGT creates and maintains the world's best crypto index products.
             </StyledCardDescription>
             <StyledCardDescription>
               All index products are always fully collateralized.
@@ -30,8 +29,8 @@ const Explanation: React.FC = () => (
             <StyledCardIcon src='https://index-dao.s3.amazonaws.com/about_icon_2.svg' />
             <StyledCardTitle>Decentralized & Autonomous</StyledCardTitle>
             <StyledCardDescription>
-              Index Coop is a Decentralized and Autonomous Asset Manager
-              governed, maintained, and upgraded by INDEX token holders.
+              LGT is a Decentralized and Autonomous Asset Manager governed,
+              maintained, and upgraded by LGT token holders.
             </StyledCardDescription>
           </StyledCardContent>
         </Surface>

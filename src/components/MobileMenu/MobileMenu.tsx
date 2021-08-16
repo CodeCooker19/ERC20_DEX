@@ -32,7 +32,7 @@ const MobileMenu: React.FC<MobileMenuProps> = ({ onDismiss, visible }) => {
             CoinShares Crypto Gold Index
           </StyledLink>
           <StyledLink exact activeClassName='active' to='/index'>
-            Index Coop Token
+            Liquidity Gold Token
           </StyledLink>
           <StyledLink exact activeClassName='active' to='/about'>
             About

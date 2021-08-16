@@ -44,9 +44,7 @@ const Vote = (props: { title: string }) => {
       <Container size='lg'>
         <StyledPageHeader>News</StyledPageHeader>
         <Spacer size='sm' />
-        <StyledPageSubheader>
-          The latest news from the Index Coop
-        </StyledPageSubheader>
+        <StyledPageSubheader>The latest news from the LGT</StyledPageSubheader>
         <Spacer size='md' />
         {header}
         <Spacer />

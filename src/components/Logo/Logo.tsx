@@ -4,8 +4,11 @@ import { Link } from 'react-router-dom'
 
 const Logo: React.FC = () => {
   return (
-    <StyledLogo to="/">
-      <StyledEmoji src='https://index-dao.s3.amazonaws.com/owl.png' alt="Owl" />
+    <StyledLogo to='/'>
+      <StyledEmoji
+        src='https://lgt.s3.us-east-2.amazonaws.com/LGT.png'
+        alt='Owl'
+      />
     </StyledLogo>
   )
 }

@@ -132,10 +132,10 @@ const Stake: React.FC = () => {
             {formattedEarnedBalance}
             <StyledTokenIcon
               alt='owl icon'
-              src='https://index-dao.s3.amazonaws.com/owl.png'
+              src='https://lgt.s3.us-east-2.amazonaws.com/LGT.png'
             />
           </StyledSectionTitle>
-          <StyledSectionLabel>Unclaimed INDEX in pool</StyledSectionLabel>
+          <StyledSectionLabel>Unclaimed LGT in pool</StyledSectionLabel>
           <Spacer />
         </CardContent>
         {isPoolActive && <CardActions>{StakeButton}</CardActions>}

@@ -9,8 +9,8 @@ const BuyTokenPlaceholder: React.FC = () => {
       <Card>
         <CenteredContent>
           <BuyIcon
-            src='https://index-dao.s3.amazonaws.com/buy-sell.svg'
-            alt='Buy Index Coop Product'
+            src='https://lgt.s3.us-east-2.amazonaws.com/LGT.png'
+            alt='Buy LGT Product'
           />
           <div>
             <LargeText> Buy & Sell </LargeText>

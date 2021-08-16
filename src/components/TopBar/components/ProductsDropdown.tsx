@@ -82,7 +82,7 @@ const ProductsDropdown: React.FC = () => {
         },
         {
           value: 'index',
-          label: 'Index Coop Token',
+          label: 'Liquidity Gold Token',
         },
       ]}
       components={{

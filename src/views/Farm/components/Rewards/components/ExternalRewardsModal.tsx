@@ -48,12 +48,12 @@ const RewardsModal: React.FC<ModalProps> = ({ isOpen, onDismiss }) => {
 
   return (
     <Modal isOpen={isOpen}>
-      <ModalTitle text='External Claim INDEX' />
+      <ModalTitle text='External Claim LGT' />
       <ModalContent>
         <Split>
           <Box alignItems='center' justifyContent='center' row>
             <StyledTokenValue>
-              {getDisplayBalance(claimableQuantity)} INDEX
+              {getDisplayBalance(claimableQuantity)} LGT
             </StyledTokenValue>
           </Box>
         </Split>
@@ -61,8 +61,8 @@ const RewardsModal: React.FC<ModalProps> = ({ isOpen, onDismiss }) => {
         <Separator />
         <Spacer />
         <StyledDescription>
-          Enter an address you'd like to claim INDEX for. All claimed INDEX goes
-          to the address inputted below.
+          Enter an address you'd like to claim LGT for. All claimed LGT goes to
+          the address inputted below.
         </StyledDescription>
         <Input
           placeholder='Enter Wallet Address'

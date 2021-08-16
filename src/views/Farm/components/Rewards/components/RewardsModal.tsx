@@ -37,12 +37,12 @@ const RewardsModal: React.FC<ModalProps> = ({ isOpen, onDismiss }) => {
 
   return (
     <Modal isOpen={isOpen}>
-      <ModalTitle text='Claim INDEX 🎁' />
+      <ModalTitle text='Claim LGT 🎁' />
       <ModalContent>
         <Split>
           <Box alignItems='center' justifyContent='center' row>
             <StyledTokenValue>
-              {getDisplayBalance(claimableQuantity)} INDEX
+              {getDisplayBalance(claimableQuantity)} LGT
             </StyledTokenValue>
           </Box>
         </Split>
@@ -52,10 +52,10 @@ const RewardsModal: React.FC<ModalProps> = ({ isOpen, onDismiss }) => {
         <StyledDescriptionContainer>
           <StyledDescriptionHeader>
             <StyledEmoji
-              src='https://index-dao.s3.amazonaws.com/owl.png'
+              src='https://lgt.s3.us-east-2.amazonaws.com/LGT.png'
               alt='Owl'
             />
-            INDEX has arrived!
+            LGT has arrived!
           </StyledDescriptionHeader>
           <StyledDescription>
             Thank you for being an early supporter of our crypto indices!
