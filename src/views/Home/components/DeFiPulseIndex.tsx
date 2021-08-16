@@ -28,17 +28,17 @@ const Home: React.FC = () => {
           <CardContent>
             <Box alignItems='center' column>
               <StyledHeader>DeFi Pulse LGT</StyledHeader>
-              <Label text="Index's First Product" />
+              <Label text="LGT's First Product" />
             </Box>
             <Spacer />
             <span>
               <ExternalLink href='https://www.tokensets.com/portfolio/dpi'>
-                The DeFi Pulse Index
+                The DeFi Pulse
               </ExternalLink>{' '}
-              is a digital asset index designed to track tokens’ performance
-              within the Decentralized Finance industry. The index is weighted
+              is a digital asset LGT designed to track tokens’ performance
+              within the Decentralized Finance industry. The LGT is weighted
               based on the value of each token’s circulating supply. The DeFi
-              Pulse Index aims to track projects in Decentralized Finance that
+              Pulse LGT aims to track projects in Decentralized Finance that
               have significant usage and show a commitment to ongoing
               maintenance and development.
             </span>
@@ -50,7 +50,7 @@ const Home: React.FC = () => {
               <Button
                 href='https://www.tokensets.com/portfolio/dpi'
                 size='md'
-                text='View The Index'
+                text='View The LGT'
               />
             </Box>
           </CardActions>

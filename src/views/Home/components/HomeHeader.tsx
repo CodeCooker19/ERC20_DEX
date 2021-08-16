@@ -20,7 +20,7 @@ const Home: React.FC = () => {
         diversified in crypto products.
       </HomeTitle>
 
-      <HomeHeaderCTA to='/dpi'>View the DeFi Pulse Index</HomeHeaderCTA>
+      <HomeHeaderCTA to='/dpi'>View the DeFi Pulse LGT</HomeHeaderCTA>
     </div>
   )
 }

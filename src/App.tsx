@@ -65,34 +65,34 @@ const App: React.FC = () => {
           />
           <Switch>
             <Route exact path='/'>
-              <Home title={'Index - Home'} />
+              <Home title={'LGT - Home'} />
             </Route>
             <Route exact path='/dpi'>
-              <DPI title={'Index - DPI'} />
+              <DPI title={'LGT - DPI'} />
             </Route>
             <Route exact path='/cgi'>
-              <CGI title={'Index - CGI'} />
+              <CGI title={'LGT - CGI'} />
             </Route>
             <Route exact path='/index'>
-              <INDEX title={'Index - Index'} />
+              <INDEX title={'LGT - Index'} />
             </Route>
             <Route exact path='/vote'>
-              <Vote title={'Index - Vote'} />
+              <Vote title={'LGT - Vote'} />
             </Route>
             <Route exact path='/about'>
-              <About title={'Index - About'} />
+              <About title={'LGT - About'} />
             </Route>
             <Route exact path='/farm'>
-              <Farm title={'Index - Farm'} />
+              <Farm title={'LGT - Farm'} />
             </Route>
             <Route exact path='/rewards'>
-              <ContributorRewards title={'Index - Rewards'} />
+              <ContributorRewards title={'LGT - Rewards'} />
             </Route>
             <Route path='/news'>
-              <News title={'Index - News'} />
+              <News title={'LGT - News'} />
             </Route>
             <Route path='/how-to-buy'>
-              <HowToBuy title={'Index - How to Buy'} />
+              <HowToBuy title={'LGT - How to Buy'} />
             </Route>
           </Switch>
         </StyledBackgroundDiv>
