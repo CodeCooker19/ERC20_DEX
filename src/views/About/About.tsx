@@ -61,9 +61,9 @@ const About = (props: { title: string }) => {
         </Section>
         <CenteredSection style={{ marginBottom: '0' }}>
           <SectionSubTitle>Getting Started</SectionSubTitle>
-          <SectionTitle>Creating The New Index Standard</SectionTitle>
+          <SectionTitle>Creating The New LGT Standard</SectionTitle>
           <LargeDescription>
-            Starting with the DeFi Pulse Index, the LGT commits itself to a high
+            Starting with the DeFi Pulse LGT, the LGT commits itself to a high
             bar for quality that helps investors maintain peace of mind.
           </LargeDescription>
           <CenteredImage

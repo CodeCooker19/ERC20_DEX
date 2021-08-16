@@ -34,10 +34,10 @@ const MarketData: React.FC = () => {
                 <StyledIcon src={dpiTokenIcon.src} alt={dpiTokenIcon.alt} />
                 <span>DPI</span>
               </StyledDpiIconLabel>
-              <StyledDpiTitle>DeFi Pulse Index</StyledDpiTitle>
+              <StyledDpiTitle>DeFi Pulse LGT</StyledDpiTitle>
             </div>
             <StyledViewMoreButton to='/dpi'>
-              View the DeFi Pulse Index ➔
+              View the DeFi Pulse LGT ➔
             </StyledViewMoreButton>
           </StyledDpiSplitHeader>
         </CardContent>

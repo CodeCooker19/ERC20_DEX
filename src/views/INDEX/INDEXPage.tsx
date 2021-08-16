@@ -78,12 +78,12 @@ const DpiProductPage = (props: { title: string }) => {
                 <b>1%</b> allocated to historical DPI holders{' '}
               </li>
               <li>
-                <b>7.5%</b> allocated to the Index Methodologist program over a
+                <b>7.5%</b> allocated to the LGT Methodologist program over a
                 period of 18 months, beginning 60 days after LGT launch
               </li>
               <li>
                 <b> 9%</b> allocated to a 60 day liquidity mining program for
-                the DeFi Pulse Index Set
+                the DeFi Pulse LGT Set
               </li>
               <li>
                 <b>52.5%</b> community treasury (with 5% available immediately

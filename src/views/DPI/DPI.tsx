@@ -64,21 +64,21 @@ const DpiProductPage = (props: { title: string }) => {
             }}
           />
           <Description>
-            <strong>The DeFi Pulse Index</strong> is a capitalization-weighted
-            index that tracks the performance of decentralized financial assets
-            across the market.
+            <strong>The DeFi Pulse LGT</strong> is a capitalization-weighted LGT
+            that tracks the performance of decentralized financial assets across
+            the market.
             <h2>Objective</h2>
-            The DeFi Pulse Index is a digital asset index designed to track
-            tokens’ performance within the Decentralized Finance industry. The
-            index is weighted based on the value of each token’s circulating
-            supply. The DeFi Pulse Index aims to track projects in Decentralized
-            Finance that have significant usage and show a commitment to ongoing
-            maintenance and development.
+            The DeFi Pulse LGT is a digital asset LGT designed to track tokens’
+            performance within the Decentralized Finance industry. The LGT is
+            weighted based on the value of each token’s circulating supply. The
+            DeFi Pulse LGT aims to track projects in Decentralized Finance that
+            have significant usage and show a commitment to ongoing maintenance
+            and development.
             <ExternalLink href='https://pulse.inc' target='_blank'>
               <h4>View the official methodology here.</h4>
             </ExternalLink>
             <h2>Token Inclusion Criteria</h2>
-            The DeFi Pulse Index has a collection of criteria composed of four
+            The DeFi Pulse LGT has a collection of criteria composed of four
             dimensions. Two dimensions are used to evaluate the token’s
             characteristics, one dimension is used to assess the project’s
             characteristics, and one is used to evaluate the protocol’s

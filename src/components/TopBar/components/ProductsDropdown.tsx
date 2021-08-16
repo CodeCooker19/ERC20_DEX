@@ -74,7 +74,7 @@ const ProductsDropdown: React.FC = () => {
       options={[
         {
           value: 'dpi',
-          label: 'DeFi Pulse Index',
+          label: 'DeFi Pulse LGT',
         },
         {
           value: 'cgi',

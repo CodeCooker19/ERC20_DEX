@@ -128,7 +128,7 @@ const HowToBuy = (props: { title: string }) => {
           <div>
             <AboutTitle>
               How To Buy The{' '}
-              <HighlightedHeader> DeFi Pulse Index </HighlightedHeader>
+              <HighlightedHeader> DeFi Pulse LGT </HighlightedHeader>
             </AboutTitle>
             <br />
             {headerImage}
@@ -139,7 +139,7 @@ const HowToBuy = (props: { title: string }) => {
             <SectionTitle>Introduction</SectionTitle>
             <Description>
               This is to help an investor who is new to cryptocurrency and
-              Decentralized Finance (DeFi) buy the DeFi Pulse Index, known as
+              Decentralized Finance (DeFi) buy the DeFi Pulse LGT, known as
               $DPI.
               <br />
               <br />

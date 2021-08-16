@@ -82,7 +82,7 @@ const Integrations: React.FC = () => (
               <StyledCardIcon src='https://set-core.s3.amazonaws.com/img/integrations/zerion.svg' />
               <StyledCardTitle>Zerion</StyledCardTitle>
               <StyledCardDescription>
-                Track your portfolio performance and buy DeFi Pulse Index in the
+                Track your portfolio performance and buy DeFi Pulse LGT in the
                 Zerion app for Desktop, Android & iOS.
               </StyledCardDescription>
 
@@ -104,8 +104,8 @@ const Integrations: React.FC = () => (
               <StyledCardIcon src='https://set-core.s3.amazonaws.com/img/integrations/argent.svg' />
               <StyledCardTitle>Argent</StyledCardTitle>
               <StyledCardDescription>
-                Buy & Sell the DeFi Pulse Index natively in the Argent wallet
-                app for Android & iOS.
+                Buy & Sell the DeFi Pulse LGT natively in the Argent wallet app
+                for Android & iOS.
               </StyledCardDescription>
 
               <StyledOutboundLink
@@ -126,7 +126,7 @@ const Integrations: React.FC = () => (
               <StyledCardIcon src='https://index-dao.s3.amazonaws.com/dharma.png' />
               <StyledCardTitle>Dharma</StyledCardTitle>
               <StyledCardDescription>
-                Get exposure to DeFi Pulse Index with this easy to use crypto
+                Get exposure to DeFi Pulse LGT with this easy to use crypto
                 wallet for Android & iOS.
               </StyledCardDescription>
 
@@ -152,7 +152,7 @@ const Integrations: React.FC = () => (
               <StyledCardTitle>Opyn</StyledCardTitle>
               <StyledCardDescription>
                 Earn premiums or hedge your risk buying and selling Put & Call
-                Options on the DeFi Pulse Index.
+                Options on the DeFi Pulse LGT.
               </StyledCardDescription>
 
               <StyledOutboundLink href='https://opyn.co/#/buy' target='_blank'>
@@ -199,7 +199,7 @@ const Integrations: React.FC = () => (
               <StyledCardTitle>Nexus Mutual</StyledCardTitle>
               <StyledCardDescription>
                 Buy Smart Contract Cover for the Set Protocol V2 contracts used
-                to power the DeFi Pulse Index.
+                to power the DeFi Pulse LGT.
               </StyledCardDescription>
 
               <StyledOutboundLink
@@ -253,7 +253,7 @@ const Integrations: React.FC = () => (
               <StyledCardIcon src='https://index-dao.s3.amazonaws.com/1inch.png' />
               <StyledCardTitle>1inch</StyledCardTitle>
               <StyledCardDescription>
-                Trade the DeFi Pulse Index and LGT governance token on the 1inch
+                Trade the DeFi Pulse LGT and LGT governance token on the 1inch
                 DEX aggregator.
               </StyledCardDescription>
 
@@ -261,7 +261,7 @@ const Integrations: React.FC = () => (
                 href='https://1inch.exchange/#/ETH/DPI'
                 target='_blank'
               >
-                Trade DeFi Pulse Index
+                Trade DeFi Pulse LGT
               </StyledOutboundLink>
               <StyledOutboundLink
                 href='https://1inch.exchange/#/ETH/INDEX'
@@ -281,14 +281,14 @@ const Integrations: React.FC = () => (
               <StyledCardIcon src='https://index-dao.s3.amazonaws.com/balancer.png' />
               <StyledCardTitle>Balancer</StyledCardTitle>
               <StyledCardDescription>
-                Trade the DeFi Pulse Index on multiple Balancer pools.
+                Trade the DeFi Pulse LGT on multiple Balancer pools.
               </StyledCardDescription>
 
               <StyledOutboundLink
                 href='https://pools.balancer.exchange/#/explore?type=shared&token=0x1494CA1F11D487c2bBe4543E90080AeBa4BA3C2b'
                 target='_blank'
               >
-                Trade DeFi Pulse Index
+                Trade DeFi Pulse LGT
               </StyledOutboundLink>
             </StyledCardContent>
           </Surface>
@@ -326,7 +326,7 @@ const Integrations: React.FC = () => (
               <StyledCardIcon src='https://index-dao.s3.amazonaws.com/defipulse.png' />
               <StyledCardTitle>DeFi Pulse</StyledCardTitle>
               <StyledCardDescription>
-                Track DeFi Pulse Index project rankings.
+                Track DeFi Pulse LGT project rankings.
               </StyledCardDescription>
 
               <StyledOutboundLink href='https://defipulse.com/' target='_blank'>
@@ -344,7 +344,7 @@ const Integrations: React.FC = () => (
               <StyledCardIcon src='https://set-core.s3.amazonaws.com/img/integrations/coingecko.png' />
               <StyledCardTitle>Coin Gecko</StyledCardTitle>
               <StyledCardDescription>
-                Compare DeFi Pulse Index with the wider crypto market.
+                Compare DeFi Pulse LGT with the wider crypto market.
               </StyledCardDescription>
 
               <StyledOutboundLink
@@ -365,7 +365,7 @@ const Integrations: React.FC = () => (
               <StyledCardIcon src='https://index-dao.s3.amazonaws.com/coinmarketcap.png' />
               <StyledCardTitle>CoinMarketCap</StyledCardTitle>
               <StyledCardDescription>
-                Compare DeFi Pulse Index with the wider crypto market.
+                Compare DeFi Pulse LGT with the wider crypto market.
               </StyledCardDescription>
 
               <StyledOutboundLink
